@@ -26,6 +26,6 @@ string= to_string(2,-3,1)
 print(string)
 
 def derivation(a, b, c):
-    return f"f'(x) = {2*a}X + {b}"
+    return f"f'(x) = {2*a} * X + {b}"
 deriv=derivation(2,-3,1)
 print(deriv)
