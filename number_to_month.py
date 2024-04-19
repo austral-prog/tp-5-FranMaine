@@ -25,7 +25,6 @@ def number_to_month(month):
 		elif month==12:
 			return "diciembre"
 	else: 
-		nomes="error"
-		return print(nomes)
+		return "error"
 mes=number_to_month(10)
 print (mes)
